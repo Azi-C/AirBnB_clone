@@ -16,11 +16,14 @@
 
 }
 
-.articles h2{
-    font-size: 30px;
+.articles article{
     text-align: center;
     border: solid 1px #FF5A5F;
     padding: 20px;
     margin: 20px;
     width: 30%;
+}
+
+.articles article h2{
+    font-size: 30px;
 }
