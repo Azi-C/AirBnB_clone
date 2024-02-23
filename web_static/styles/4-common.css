@@ -9,6 +9,10 @@ body{
     
         }
 
+div{
+	align-self: center;
+}
+
 .container{
     display: flex;
     position: relative;
