@@ -1,0 +1,130 @@
+.places{
+    display: flex;
+    flex-direction: column;
+}
+.places h1{
+    font-size: 30px;
+}
+
+.articles{
+    width: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.articles article{
+    text-align: center;
+    border: solid 1px #FF5A5F;
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+}
+
+.articles article h2{
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    padding-left: 30%;
+}
+
+.price_by_night{
+    color: #FF5A5F;
+    border: solid 4px #FF5A5F;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.price_by_night p{
+    margin: 0;
+}
+
+.information{
+    width: 100%;
+    position: relative;
+    height: 80px;
+    border-top: solid 1px #DDDDDD;
+    border-bottom: solid 1px #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+}
+
+.max_guest{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+}
+
+.icon1{
+    background-repeat: no-repeat;
+    height: inherit;
+    width: inherit;
+    background-image: url("../images/icon1.png");
+}
+
+.information p{
+    font-size: 15px;
+     margin: 0;
+     text-align: left;
+}
+
+.number_rooms{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+
+}
+
+.icon2{
+    background-repeat: no-repeat;
+    height: inherit;
+    width: inherit;
+
+    background-image: url("../images/icon2.png");
+}
+
+.number_bathrooms{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+
+}
+
+.icon3{
+    background-repeat: no-repeat;
+    height: inherit;
+    width: inherit;
+
+    background-image: url("../images/icon3.png");
+}
+
+.user{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.description{
+    text-align: left;
+    margin-bottom: 5%;
+}
